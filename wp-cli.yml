@@ -1,0 +1,4 @@
+require:
+  - wp-cli/browse-command.php
+@northgate.wordpress:
+  ssh: vagrant:northgate.wordpress:/var/www/html
