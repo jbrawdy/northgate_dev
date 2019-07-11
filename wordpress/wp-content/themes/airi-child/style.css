@@ -1,0 +1,25 @@
+/*
+ Theme Name:     Airi Child Theme
+ Theme URI:      https://github.com/jbrawdy
+ Description:    Airi Child Theme
+ Author:         Josh Brawdy
+ Author URI:     https://github.com/jbrawdy
+ Template:       airi
+ Version:        1.0.0
+*/
+
+img{
+  max-width: 20%;
+}
+
+.site-header {
+    padding: 5px 0;
+}
+
+.menuStyle1 .main-navigation a:hover, .menuStyle1 .fa-search:hover {
+    color: rgba(232,37,69,0.89);
+}
+
+.menuStyle1 .sticky-wrapper.is-sticky .main-navigation a:hover, .menuStyle1 .sticky-wrapper.is-sticky .fa-search:hover {
+    color: rgba(232,37,69,0.89);
+}
