@@ -8,12 +8,20 @@
  Version:        1.0.0
 */
 
+/*
+@import url("../airi/style.css");
+@import url("../airi/style.css.map");
+*/
 img{
-  max-width: 20%;
+  max-width: 50%;
 }
 
 .site-header {
-    padding: 5px 0;
+    /*padding: 5px 0;
+    */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
 
 .menuStyle1 .main-navigation a:hover, .menuStyle1 .fa-search:hover {
