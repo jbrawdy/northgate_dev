@@ -1,33 +1,41 @@
 /*
- Theme Name:     Airi Child Theme
- Theme URI:      https://github.com/jbrawdy
- Description:    Airi Child Theme
- Author:         Josh Brawdy
- Author URI:     https://github.com/jbrawdy
- Template:       airi
- Version:        1.0.0
+Theme Name: Airi Child
+Theme URI: https://athemes.com/theme/airi
+Template: airi
+Author: aThemes
+Author URI: https://athemes.com
+Description: Airi is a powerful, flexible, and modern theme for your business website. Featuring Elementor integration, this theme is an outstanding choice for any kind of company or freelancer site. Bringing a wealth of customization opportunities, Airi is great if you want to start a website from scratch and it's even greater if you want to use a premade Elementor layout from our growing collection. What’s more, the theme offers WooCommerce support, making it easy to sell the products you showcase on your site to your audience.
+Tags: custom-background,right-sidebar,custom-colors,custom-logo,custom-menu,featured-images,threaded-comments,translation-ready,full-width-template
+Version: 1.0.6.1562981895
+Updated: 2019-07-13 01:38:15
+
 */
 
-/*
-@import url("../airi/style.css");
-@import url("../airi/style.css.map");
-*/
 img{
-  max-width: 50%;
-}
-
-.site-header {
-    /*padding: 5px 0;
-    */
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-}
-
-.menuStyle1 .main-navigation a:hover, .menuStyle1 .fa-search:hover {
-    color: rgba(232,37,69,0.89);
-}
-
-.menuStyle1 .sticky-wrapper.is-sticky .main-navigation a:hover, .menuStyle1 .sticky-wrapper.is-sticky .fa-search:hover {
-    color: rgba(232,37,69,0.89);
-}
+    max-width: 50%;
+  }
+  
+  
+  
+  .site-header {
+      /*padding: 5px 0;
+      */
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+  }
+  
+  
+  
+  .menuStyle1 .main-navigation a:hover, .menuStyle1 .fa-search:hover {
+      color: rgba(232,37,69,0.89);
+  }
+  
+  .menuStyle1 .sticky-wrapper.is-sticky .main-navigation a:hover, .menuStyle1 .sticky-wrapper.is-sticky .fa-search:hover {
+      color: rgba(232,37,69,0.89);
+  }
+  
+  
+  .menuStyle1.page-template-template_page-builder .site-header {
+      border: none;
+  }
