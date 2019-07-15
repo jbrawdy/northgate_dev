@@ -4,7 +4,7 @@ Tags: page builder, editor, landing page, drag-and-drop, elementor, visual edito
 Requires at least: 4.7
 Tested up to: 5.2
 Requires PHP: 5.4
-Stable tag: 2.6.1
+Stable tag: 2.6.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -220,6 +220,15 @@ No. Elementor supports WordPress 4.7 or greater, and is compatible with PHP 5.4 
 7. **Shape Divider.** Choose from a wide array of shape dividers and separate your sections in endless ways, that until now were simply not possible.
 
 == Changelog ==
+
+= 2.6.2 - 2019-07-14 =
+* Tweak: Make sure activeTab exists in Icon library
+* Fix: Star rating widget alignment is not responsive ([#8444](https://github.com/elementor/elementor/issues/8444))
+* Fix: Temporarily reverted `application/json` content type to support various server configurations
+* Fix: Progress Bar typography backward compatibility
+* Fix: Missing `fas` icons in Social Icons widget
+* Fix: Navigator Indicators tooltip location
+* Fix: Added Icon List backward compatibility on template import
 
 = 2.6.1 - 2019-07-10 =
 * Tweak: Added responsive controls to Icon size and Icon rotation in Icon widget
