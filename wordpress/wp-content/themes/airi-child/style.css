@@ -29,12 +29,12 @@ img{
   
   
   .menuStyle1 .main-navigation a:hover, .menuStyle1 .fa-search:hover {
-      color: rgba(232,37,69,0.89);
+      color: #486d96;
     
   }
   
   .menuStyle1 .sticky-wrapper.is-sticky .main-navigation a:hover, .menuStyle1 .sticky-wrapper.is-sticky .fa-search:hover {
-      color: rgba(232,37,69,0.89);
+      color: #486d96;
   }
   
   
@@ -109,6 +109,7 @@ ul.header-search-cart {
     font-size: larger;
 }
 
+
 @media (max-width: 1199px){
 .menuStyle1.page-template-template_page-builder .site-header {
     background-color: #13151d;
@@ -122,3 +123,37 @@ ul.header-search-cart {
         position: sticky;
     }
     }
+
+    
+    .woocommerce-checkout button.button.alt, .woocommerce-checkout button.button.alt:hover, .woocommerce-cart .cart-collaterals .cart_totals .button:hover, .woocommerce-cart .cart-collaterals .cart_totals .button, .product .single_add_to_cart_button.button.alt:hover, .product .single_add_to_cart_button.button.alt, .woocommerce ul.products li.product .button, .menuStyle2 .main-navigation a:hover:after, .menuStyle2 .main-navigation .current-menu-item:after, .comments-area .comment-reply-link:hover, .menuStyle4 .main-navigation .header-cta:before, .menuStyle4 .main-navigation .header-cta, .button, input[type="button"], input[type="reset"], input[type="submit"], .menuStyle3 .main-navigation a:hover:after, .menuStyle3 .main-navigation .current-menu-item:after {
+        background-color: gray !important;
+    }
+
+    .product .single_add_to_cart_button.button.alt, .menuStyle4 .contact-area .contact-block .contact-icon, button, .button, input[type="button"], input[type="reset"], input[type="submit"] {
+        border-color: gray !important;
+    }
+
+    @media (max-width: 1199px){
+        .main-navigation ul li a:hover, .main-navigation ul li.current_page_item > a, .main-navigation ul li.current-menu-item > a, .main-navigation ul li.current_page_ancestor > a, .main-navigation ul li.current-menu-ancestor > a {
+            color: #486d96;
+            text-decoration: none;
+        }
+    }
+
+    
+   
+    
+    .main-navigation li:first-of-type {
+   
+        padding-top: 0px;
+        padding-right: 30px;
+        padding-bottom: 0px;
+        padding-left: 30px;
+       
+    }
+
+
+   
+
+    
+    
