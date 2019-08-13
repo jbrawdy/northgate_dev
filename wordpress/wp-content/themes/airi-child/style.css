@@ -2,12 +2,8 @@
 Theme Name: Airi Child
 Theme URI: https://athemes.com/theme/airi
 Template: airi
-Author: aThemes
-Author URI: https://athemes.com
-Description: Airi is a powerful, flexible, and modern theme for your business website. Featuring Elementor integration, this theme is an outstanding choice for any kind of company or freelancer site. Bringing a wealth of customization opportunities, Airi is great if you want to start a website from scratch and it's even greater if you want to use a premade Elementor layout from our growing collection. What’s more, the theme offers WooCommerce support, making it easy to sell the products you showcase on your site to your audience.
-Tags: custom-background,right-sidebar,custom-colors,custom-logo,custom-menu,featured-images,threaded-comments,translation-ready,full-width-template
-Version: 1.0.6.1562981895
-Updated: 2019-07-13 01:38:15
+Author: Josh Brawdy
+Author URI: https://github.com/jbrawdy
 
 */
 
@@ -18,7 +14,8 @@ img{
 
   .custom-logo-link {
     display: inline-block;
-    padding-left: 50px;
+    padding-left: 0px;
+
 }
 
 .site-header .container-fluid {
@@ -103,14 +100,18 @@ footer{
 
 ul.header-search-cart .header-cart-link {
     margin-left: 0px;
+    
 }
 
 .main-navigation li:first-of-type {
      padding-left: 0px; 
+     
 }
 
 ul.header-search-cart {
     margin-left: 0px;
+   display: none;
+    
 }
 
 .menuStyle1 .site-title a, .menuStyle1 .main-navigation a {
